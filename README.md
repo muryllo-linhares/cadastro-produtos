@@ -23,14 +23,9 @@ npm start
 
 ##  Funcionalidades
 
--  Cadastro de produtos
--  Listagem de produtos
--  Edição de produtos
--  Exclusão de produtos
--  Cadastro de categorias
--  Produtos por categoria
-
-##  Desafios
+-  Cadastro de produtos     -  Listagem de produtos
+-  Edição de produtos       -  Exclusão de produtos
+-  Cadastro de categorias   -  Produtos por categoria
 
 ###  Desafio 1 — Categorias
 
