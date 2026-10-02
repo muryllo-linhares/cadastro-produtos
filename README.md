@@ -26,13 +26,13 @@ npm start
 -  Cadastro de produtos     -  Listagem de produtos
 -  Edição de produtos       -  Exclusão de produtos
 -  Cadastro de categorias   -  Produtos por categoria
-##DESAFIOS
+
 ###  Desafio 1 — Categorias
 Criei o model Categoria em models/index.js e relacionei com Produto usando hasMany e belongsTo, com categoriaId como chave estrangeira.
 Usei as: 'categoria' para definir o nome da associação.
 
 As categorias são cadastradas em /categorias. Nos formulários de produto, um <select> permite escolher a categoria, e a listagem exibe seu nome.
-## Desafio 2 — Produtos por categoria
+### Desafio 2 — Produtos por categoria
 
 Criei a rota GET /produtos/categoria/:id para listar os produtos de uma categoria. O id vem de req.params.id, e a categoria é buscada com findByPk, retornando 404 se não existir.
 
